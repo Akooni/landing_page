@@ -44,7 +44,9 @@ a,.text2 {
 
 .holder {
     display: flex;
+    justify-content: center;
     padding: 38px;
+    gap: 23px;
 }
 
 .footer,.con {
@@ -56,4 +58,17 @@ a,.text2 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+}
+
+.bottom {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 5px 22px;
+    border-radius: 6px;
 }
