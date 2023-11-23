@@ -4,7 +4,6 @@ body {
     font-family:Roboto, sans-serif;
     margin:0;
     padding: 0;
-    text-align: center;
 }
 
 .header {
@@ -79,6 +78,7 @@ a,.text2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -88,6 +88,26 @@ a,.text2 {
 }
 
 .second-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 20px;
     margin-bottom: 80px;
 }
 
+.big-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    padding: 50px;
+}
+
+.small-text {
+    display: flex;
+    align-self: flex-end;
+}
