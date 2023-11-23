@@ -85,6 +85,7 @@ a,.text2 {
     display: flex;
     justify-content: center;
     gap: 52px;
+    padding: 20px;
 }
 
 .second-header {
@@ -111,3 +112,16 @@ a,.text2 {
     display: flex;
     align-self: flex-end;
 }
+
+.last-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: royalblue;
+}
+
+.second-button {
+    border-color: white;
+}
+
