@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Roboto, sans-serif;
     margin:0;
     padding: 0;
 }
@@ -22,12 +22,6 @@ ul {
     list-style-type: none;
 }
 
-.text1 {
-    size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
 a,.text2 {
     text-decoration: none;
     color: #e5e7eb;
@@ -42,12 +36,24 @@ a,.text2 {
 
 }
 
+.placeholder {
+    height: 210px;
+    width: 500px;
+    background-color: aqua;
+}
+
 .holder {
     display: flex;
-    flex-direction: ;
+    padding: 38px;
 }
 
 .footer,.con {
     flex-direction: column;
     background-color: #1F2937;
+}
+
+.top {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
